@@ -9,6 +9,7 @@ import catsReducer from './reducers/catsReducer.js';
 
 const store = createStore(catsReducer, applyMiddleware(thunk))
 
+
 ReactDOM.render(
   <Provider store={store}>
     <App />
